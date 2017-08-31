@@ -1,0 +1,22 @@
+{
+  "name": "mongoose_testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seeds": "node seeds",
+    "c": "node repl.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "bluebird": "^3.5.0",
+    "faker": "^4.1.0",
+    "mongoose": "^4.11.6",
+    "mongoose-unique-validator": "^1.0.5",
+    "mongooseeder": "^2.0.5",
+    "repl": "^0.1.3"
+  }
+}
